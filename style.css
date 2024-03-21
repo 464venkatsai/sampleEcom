@@ -33,3 +33,22 @@ form button{
 #characters-main img{
     aspect-ratio: 3/4;
 }
+.images{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: auto;
+}
+.images section{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+.images section img{
+    margin-left: 3rem;
+}
+.images section img:hover{
+    transform: scale(1.25);
+    transition: 0.35s ease-in-out;
+}
